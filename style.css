@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(47, 47, 125, 1) 49%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  position: relative;
+}
+
+body:hover {
+  background: rgb(36, 22, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(36, 22, 0, 1) 0%,
+    rgba(121, 125, 47, 1) 49%,
+    rgba(255, 145, 0, 1) 100%
+  );
+}
+
+body h1 {
+  color: white;
+  text-align: center;
+}
+
+#main-title {
+  padding: 20px 0;
+  color: black;
+}
+
+.card {
+  background-color: white;
+  border-radius: 2px;
+  margin: auto;
+}
